@@ -54,4 +54,4 @@ There is a lot of similarities between minesweeper and battleship - using nested
 
 ## Acknowledgements
 
-- [ImKennyYip] (https://github.com/ImKennyYip)
+- [ImKennyYip](https://github.com/ImKennyYip) 
