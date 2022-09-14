@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="minesweeper.css">
+    <script src="minesweeper.js" defer></script>
+</head>
+<body>
+    <div id="start">
+        <h1>Minesweeper</h1>
+        <form>
+            <label for="mine-input">How many mines (1-60) do you want to avoid?</label>
+            <br>
+            <br>
+            <input id="mine-input" type="number" min="1" max="60" onkeyup="if(value<1) value=''; if(value>60) value='';" required>
+            <br>
+            <br>
+            <button id="start-btn">Play Game</button>
+        </form>
+    </div>
+    <div id="game">
+        <button id="play-again">Play Again</button>
+        <h2>Mines: <span id="mines-count">0</span></h2>
+        <div id="board"></div>
+        <br>
+        <button id="flag-button">🚩</button>
+    </div>
+</body>
+</html>
