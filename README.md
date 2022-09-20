@@ -5,6 +5,7 @@ Completed result from [YouTube Tutorial](https://youtu.be/AfhfAxKFP-s) with vide
 ## Table of Contents
 
 - [Screenshots](#screenshots)
+- [Link](#link)
 - [Thoughts](#thoughts)
 - [Useful Resources](#useful-resources)
 - [Acknowledgements](#acknowledgements)
@@ -24,6 +25,10 @@ Completed result from [YouTube Tutorial](https://youtu.be/AfhfAxKFP-s) with vide
 ![](minesweeper-using-flags-2.png)
 
 ![](flag-edge-case.png "can't remove flag in this situation")
+
+## Link
+
+- [Github Pages](https://jdegand.github.io/minesweeper)
 
 ## Thoughts
 
